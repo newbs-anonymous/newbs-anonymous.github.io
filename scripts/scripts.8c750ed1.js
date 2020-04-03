@@ -316,6 +316,14 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
         max: 4500
       }
     }, {
+      id: 1091 ,
+      map: "moc_fild18",
+      name: "Dragon Fly",
+      respawn: {
+        min: 3600,
+        max: 5400
+      }
+    }, {
       id: 1112,
       map: "treasure02",
       name: "Drake",
