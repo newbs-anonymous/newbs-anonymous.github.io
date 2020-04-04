@@ -18,9 +18,9 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
   a.settings = {}, a.$state = b;
   var d = {
     apiKey: "AIzaSyAR0s-aKQn23_igJ99kE82Fjms2e7B4bBU",
-    authDomain: "willbo-kulet.firebaseapp.com",
-    databaseURL: "https://willbo-kulet.firebaseio.com",
-    storageBucket: "willbo-kulet.appspot.com"
+    authDomain: "newbs-anonymous.firebaseapp.com",
+    databaseURL: "https://newbs-anonymous.firebaseio.com",
+    storageBucket: "newbs-anonymous.appspot.com"
   };
   c.initializeApp(d)
 }]), app.controller("MvpCtrl", ["$scope", "$rootScope", "$timeout", "$state", "DataSrv", "webNotification", "time", function(a, b, c, d, e, f, g) {
