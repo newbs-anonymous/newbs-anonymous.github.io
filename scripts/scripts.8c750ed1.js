@@ -17,7 +17,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
 }]), app.run(["$rootScope", "$state", "firebase", function(a, b, c) {
   a.settings = {}, a.$state = b;
   var d = {
-    apiKey: "AIzaSyAR0s-aKQn23_igJ99kE82Fjms2e7B4bBU",
+    apiKey: "AIzaSyDWTc2ncSBUEfbtNQq8558EQNkhqkWrV1s",
     authDomain: "newbs-anonymous.firebaseapp.com",
     databaseURL: "https://newbs-anonymous.firebaseio.com",
     storageBucket: "newbs-anonymous.appspot.com"
